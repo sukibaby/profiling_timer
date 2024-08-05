@@ -15,8 +15,7 @@ profiler.GetTimestampCount();
 profiler.Start();
 profiler.GetTimestampCount();
 
-// Code block to be profiled
-exampleFunction();
+( ... code to be profiled ... )
 
 // Stop the first timer and get the elapsed time
 std::uint64_t elapsedTime = profiler.Stop(0);
